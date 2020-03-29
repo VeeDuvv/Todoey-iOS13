@@ -6,7 +6,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--DuvvDoey-->
+        <!--ToDoey-->
         <scene sceneID="ECI-Jd-bdJ">
             <objects>
                 <tableViewController id="fRx-ti-xP2" customClass="TodoListViewController" customModule="Todoey" customModuleProvider="target" sceneMemberID="viewController">
@@ -15,7 +15,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="TodoItemCell" id="HJe-Eo-giV">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="TodoItemCell" id="HJe-Eo-giV">
                                 <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="HJe-Eo-giV" id="EDH-h1-frD">
@@ -29,7 +29,7 @@
                             <outlet property="delegate" destination="fRx-ti-xP2" id="R0f-b3-vrU"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="DuvvDoey" id="IVp-lq-fDw"/>
+                    <navigationItem key="navigationItem" title="ToDoey" id="IVp-lq-fDw"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e9B-FO-QrV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
